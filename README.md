@@ -1,0 +1,2 @@
+# IOT_Security-_using_steganograpy_with_the-_help_of_edge_detection_using_cnn
+This project implements adaptive LSB steganography on medical CT scans. It uses a custom CNN with trainable Sobel filters for precise edge detection to mask secret data. We analyze the trade-off between image quality (PSNR) and noise resilience (BER), demonstrating that 2nd-LSB embedding offers superior robustness for secure transmissions.
