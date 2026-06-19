@@ -1,6 +1,6 @@
 # IOT Security — Steganography with Edge Detection using CNN
 
-This project explores the intersection of deep learning and steganography by implementing an adaptive LSB steganography system on medical CT scans. It uses a custom Convolutional Neural Network (CNN) with trainable Sobel filters for precise edge detection to determine where secret data should be embedded. The work analyzes the trade-off between imperceptibility and robustness of different LSB embedding strategies.
+This project explores the intersection of deep learning and steganography by implementing an adaptive LSB steganography system on medical CT scans. It uses a custom Convolutional Neural Network (CNN) [...]
 
 ## Key Features
 
@@ -39,3 +39,12 @@ This project explores the intersection of deep learning and steganography by imp
 This README summarizes the project's goals, design, and high-level results. If you want, I can:
 - Expand this README with installation and usage instructions (requirements, how to run training/embedding/evaluation).
 - Commit this formatted README back to the repository (I will confirm the repo/branch before writing).
+
+## Visualization
+
+![Steganography Results](https://github.com/Sayan1733/IOT_Security-_using_steganograpy_with_the-_help_of_edge_detection_using_cnn/raw/main/results_visualization.png)
+
+The visualization above demonstrates the effectiveness of our steganography approach:
+- **Original Edge Image**: The input CT scan with edge detection applied
+- **Stego Image**: The result after embedding secret data using our edge-based LSB algorithm
+- **Embedding Difference**: A magnified view of the pixel-level changes, showing how well the embedded data is concealed within the edge regions
